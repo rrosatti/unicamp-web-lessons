@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <script src="script.js"></script>        
+    </head>
+    <body>
+        <h4>Javascript - Exercise 2</h4>
+        <form name="register" onsubmit="return checkForm()" method="post">
+            Name: <input type="text" name="name"></br></br>
+            <p>Sexo:</p>
+            <input type="radio" name="sex" value="Masculino">Masculino</br>
+            <input type="radio" name="sex" value="Feminino">Feminino</br></br>
+            <p>Estado Civil:</p>
+            <select name="estadoCivil">
+                <option value="Solteiro">Solteiro</option>
+                <option value="Casado">Casado</option>
+                <option value="Viuvo">Viúvo</option>
+                <option value="Divorciado">Divorciado</option>
+            </select></br>
+            <p>Bens Financiados:</p>
+            <input type="checkbox" name="bensFinanciados" value="Imovel"/>Imóvel</br>
+            <input type="checkbox" name="bensFinanciados" value="Carro"/>Carro</br>
+            <input type="checkbox" name="bensFinanciados" value="Barco"/>Barco</br></br>
+            <input type="submit" value="Enviar"/>
+        </form>    
+    </body>
+</html>

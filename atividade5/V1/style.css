@@ -1,0 +1,28 @@
+td{
+	width: 200px;
+	height: 200px;
+	background-color:cyan;	
+	font-size: 100px;	
+	text-align:center;
+}
+
+#container{
+    overflow:hidden;
+    position:relative;
+    width:100%;
+}
+
+#tabela{
+	font-size: 100px;
+    float:left;
+    position:absolute;
+}
+
+#bt-restart {
+    top:0;
+    right:0;
+    float:left;
+    position:absolute;
+    margin-right:1em;
+    margin-top:2em;
+}
